@@ -1,0 +1,92 @@
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.deps.json
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.pdb
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.AssemblyReference.cache
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfoInputs.cache
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfo.cs
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CoreCompileInputs.cache
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CopyComplete
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\refint\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.pdb
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\ref\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.deps.json
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.pdb
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.AssemblyReference.cache
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfoInputs.cache
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfo.cs
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CoreCompileInputs.cache
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CopyComplete
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\refint\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.pdb
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Service\obj\Debug\net6.0\ref\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.deps.json
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.pdb
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.AssemblyReference.cache
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfoInputs.cache
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfo.cs
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CoreCompileInputs.cache
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CopyComplete
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\refint\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.pdb
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Service\obj\Debug\net6.0\ref\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.deps.json
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.pdb
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.AssemblyReference.cache
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfoInputs.cache
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfo.cs
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CoreCompileInputs.cache
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CopyComplete
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\refint\TravelInsurance.Service.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.pdb
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\ref\TravelInsurance.Service.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.deps.json
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.pdb
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.AssemblyReference.cache
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfoInputs.cache
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfo.cs
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CoreCompileInputs.cache
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.sourcelink.json
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelIn.0DFAF02B.Up2Date
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\refint\TravelInsurance.Service.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.pdb
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\ref\TravelInsurance.Service.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.deps.json
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Service.pdb
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.AssemblyReference.cache
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfoInputs.cache
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.AssemblyInfo.cs
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.csproj.CoreCompileInputs.cache
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.sourcelink.json
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelIn.0DFAF02B.Up2Date
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\refint\TravelInsurance.Service.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\TravelInsurance.Service.pdb
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Service\obj\Debug\net6.0\ref\TravelInsurance.Service.dll
