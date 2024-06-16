@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>TownShips</title>
+    <link href="~/lib/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+
+            $("#lNRC").addClass("active");
+            $("#collapseTwo").addClass("show");
+            $("#lTownShipCodes").addClass("active");
+        });
+    </script>
+
+    <style>
+        .nrc-table {
+            width: 100%!important;
+        }
+        /* Remove all borders in the DataTable */
+
+
+/* Remove borders for all cells */
+
+        #townShipCodesTable thead tr th:nth-child(5) {
+            border-right-style: none;
+        }
+
+        #townShipCodesTable tbody td:nth-child(5) {
+            border-right-style: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">NRC Township Code</h1>
+            <a asp-action="Create" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm create" style="width: 100px;">
+                <i class="fas fa-user fa-sm text-white-50"></i> Create
+            </a>
+        </div>
+
+        <!-- Page Body -->
+        <div class="card shadow mb-8 table-con">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">NRC Township Code</h6>
+            </div>
+            <div class="card-body">
+              
+                @if (ViewBag.SuccessMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.SuccessMessage");
+                        };
+                    </script>
+                }
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.ErrorMessage");
+                        };
+                    </script>
+                }
+
+            
+
+                <div class="row">
+                    <div class="col-12">
+                        <div id="dataTable_filter" class="dataTables_filter filter-con">
+                            <label>Filter by state code: </label>
+                            <select class="form-control filter-select" id="stateCodesDropdown">
+                                @foreach (var stateCodes in ViewBag.StateCodesDropDownlist)
+                                {
+                                    <option value="@stateCodes.Id">@stateCodes.StateCodeEN</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </div>
+               
+
+              
+
+                <div class="table-responsive township-container">
+                    <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                        <table id="townShipCodesTable" class="table table-bordered" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Township Code(en)</th>
+                                    <th>Township Code(mm)</th>
+                                    <th>State Code</th>
+                                    <th style="text-align:left">Action</th>
+                                    <th ></th>
+                                    @* <th style="text-align:left">Action</th> *@
+                                   @*  <th colspan="2" style="text-align:left">Action</th> *@
+
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+
+                     
+
+            </div>
+        </div>
+        <!-- End Of Page Body -->
+    </div>
+
+  
+</body>
+</html>
+
+@section Scripts
+    {
+    <script src="~/js/bootbox.js"></script>
+    <script src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/js/TownShipCodesTable.js"></script>
+}
+

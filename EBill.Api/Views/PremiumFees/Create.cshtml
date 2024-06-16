@@ -1,0 +1,78 @@
+﻿@model TravelInsurance.Infrastructure.Dto.PremiumFees.PremiumFeesRequestViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">PremiumFee Management</h1>
+    </div>
+
+    <!-- Page Body -->
+    <div class="card shadow mb-4 create-user">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Create New PremiumFee</h6>
+        </div>
+        <div class="card-body">
+
+            <form asp-action="Create">
+             
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Duration" class="control-label"></label>
+                    <input asp-for="Duration" class="form-control" />
+                    <span asp-validation-for="Duration" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Fee" class="control-label"></label>
+                    <input type="number" asp-for="Fee" class="form-control" />
+                    <span asp-validation-for="Fee" class="text-danger"></span>
+                </div>
+              @*   <div style="color: green;" class="form-group">
+                    @ViewBag.SuccessMessage
+                </div>
+                <div style="color: red;" class="form-group">
+                    @ViewBag.ErrorMessage
+                </div> *@
+                @if (ViewBag.SuccessMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.SuccessMessage");
+                        };
+                    </script>
+                }
+
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.ErrorMessage");
+                        };
+                    </script>
+                }
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+<div>
+    <a asp-action="Index">
+        <input type="button" class="form-control ok-btn" value="Back to List" />
+    </a>
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

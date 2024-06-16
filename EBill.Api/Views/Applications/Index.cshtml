@@ -1,0 +1,240 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application</title>
+    <link href="~/lib/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $("#lApplications").addClass("active");
+        });
+    </script>
+    <style>
+        .nrc-table {
+            width: 100% !important;
+        }
+
+        #applicationsTable thead tr th:nth-child(12) {
+            border-right-style: none;
+        }
+
+        #applicationsTable tbody td:nth-child(12) {
+            border-right-style: none;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Page Heading -->
+
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Record List</h1>
+
+    </div>
+    <!-- Page Body -->
+    <div class="card shadow mb-8 table-con">
+
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="filter-con">
+                        <button id="filterId" data-target="#filterModal" data-toggle="modal" class="d-sm-inline-block btn btn-sm shadow-sm filter-btn" style="width: 100px;">
+                            <i class="fas fa-filter fa-sm text-white-50"></i> Filter
+                        </button>
+                        <a href="#" id="exportButton" class="d-sm-inline-block btn btn-sm shadow-sm export" style="width: 100px;" onclick="exportData()">
+                            <i class="fas fa-upload fa-sm text-white-50"></i> Export
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+                   <div class="table-responsive nrc-table">
+                <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <table id="applicationsTable" class="table table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>ApplicatonId</th>
+                                <th>No. of People</th>
+                                <th>ContactPhone</th>
+                                <th>Address</th>
+                                <th>StartDate</th>
+                                <th>EndDate</th>
+                                <th>SecondContactPerson</th>
+                                <th>SecondContactPhone</th>
+                                <th>PaymentStatus</th>
+                                <th>Merchant Name</th>
+                                <th style="text-align:left">Action</th>
+                                <th></th>
+                             
+
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Of Page Body -->
+    <div class="modal" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font-weight-bold" id="exampleModalLabel">Filter</h4>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label class="label-title">Application Id</label>
+                        <input type="text" class="form-control" id="applicationIdInput">
+                        <label class="label-title">Name</label>
+                        <input type="text" class="form-control" id="nameInput">
+                        <label class="label-title">Merchant Name</label>
+                        <input type="text" class="form-control" id="merchantNameInput">
+                        <label class="label-title">Received Date</label>
+                        <input type="date" class="form-control" id="receivedDateInput">
+                        <label class="label-title">Started Date</label>
+                        <input type="date" class="form-control" id="startDateInput">
+                        <label class="label-title">End Date</label>
+                        <input type="date" class="form-control" id="endDateInput">
+                        @* <label class="label-title">Status</label>
+                        <div class="pay-con">
+                            <div class="d-flex align-items-center">
+                                <input type="radio" id="draft" name="status" />
+                                <label for="draft">Draft</label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <input type="radio" id="done" name="status" />
+                                <label for="done">Done</label>
+                            </div>
+                        </div> *@
+                        <label class="label-title">Endosement</label>
+                        <div class="pay-con">
+                            <div class="d-flex align-items-center">
+                                <input type="radio" id="Endosementno" name="endo" />
+                                <label for="no">No</label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <input type="radio" id="Endosementyes" name="endo" />
+                                <label for="yes">Yes</label>
+                            </div>
+                        </div>
+                        <label class="label-title">Payment Status</label>
+                        <div class="pay-con">
+                            <div class="d-flex align-items-center">
+                                <input type="checkbox" id="paid" />
+                                <label for="paid">Paid</label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <input type="checkbox" id="unpaid" />
+                                <label for="unpaid">Unpaid</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <button class="btn btn-primary" id="filterButton" type="button" data-dismiss="modal">Filter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<script src="../js/sb-admin-2.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function exportData() {
+
+        window.location.href = '/Applications/ExportData'; // Replace 'YourController' with your actual controller name
+    }
+    $(document).ready(function () {
+        // Your DataTable initialization and other code...
+
+        $("#filterButton").click(function () {
+
+            //alert("aaa");
+            // Collect filter criteria from the form fields
+            var applicationId = $("#applicationIdInput").val();
+            var name = $("#nameInput").val();
+            var merchantName = $("#merchantNameInput").val();
+            var receivedDate = $("#receivedDateInput").val();
+            var startDate = $("#startDateInput").val();
+            var endDate = $("#endDateInput").val();
+            var status = $("input[name='status']:checked").val();
+            var endo = $("input[name='endo']:checked").val();
+            var paid = $("#paidCheckbox").is(":checked");
+            var unpaid = $("#unpaidCheckbox").is(":checked");
+
+            // Make an AJAX request to the MVC controller action
+            $.ajax({
+                url: '@Url.Action("FilterApplications", "Applications")',
+                method: "POST", // Use "POST" if needed
+                data: {
+                    applicationId: applicationId,
+                    name: name,
+                    merchantName: merchantName,
+                    receivedDate: receivedDate,
+                    startDate: startDate,
+                    endDate: endDate,
+                    status: status,
+                    endo: endo,
+                    paid: paid,
+                    unpaid: unpaid
+                },
+                success: function (data) {
+                    // Handle the returned JSON data here
+                    console.log(data);
+
+                    // Example: Access a specific property in the JSON response
+                    var responseData = data.data; // Assuming the data property contains your result
+                    console.log(responseData);
+
+                    // Perform further processing based on the returned data
+                },
+                error: function (error) {
+                    // Handle errors if the request fails
+                   // console.error("Error:", error);
+                    
+                    $("#applicationIdInput").val('')
+                    $("#nameInput").val('')
+                    $("#merchantNameInput").val('')
+                    $("#Endosementyes").prop("checked", false);
+                    $("#Endosementno").prop("checked", false);
+                    $("#paid").prop("checked", false);
+                    $("#unpaid").prop("checked", false);
+                    $("#receivedDateInput").val('mm/dd//yyyy');
+                    $("#startDateInput").val('mm/dd//yyyy');
+                    $("#endDateInput").val('mm/dd//yyyy');
+                    
+                }
+            });
+       
+        
+        
+        
+        });
+    });
+
+</script>
+@section Scripts
+    {
+    <script src="~/js/bootbox.js"></script>
+    <script src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/js/ApplicationsTable.js"></script>
+}
+

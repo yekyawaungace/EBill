@@ -1,0 +1,70 @@
+﻿@model IEnumerable<TravelInsurance.Infrastructure.Dto.Travellers.TravellersRequestViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Application</h1>
+    </div>
+
+    <!-- DataTables -->
+    <div class="card shadow mb-4 table-con">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">People List</h6>
+        </div>
+
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <table class="table">
+                        <thead>
+                            <tr>
+
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </th>
+                                <th>
+                                    NRC/Passport
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.NRCOrPassportData)
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <a asp-controller="Applications" asp-action="index">
+                <input type="button" class="form-control ok-btn" value="Back to List" />
+            </a>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+

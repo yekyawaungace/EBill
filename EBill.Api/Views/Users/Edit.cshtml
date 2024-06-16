@@ -1,0 +1,146 @@
+﻿@model TravelInsurance.Infrastructure.Dto.User.UserRequestViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+
+    // Document is ready
+    $(document).ready(function () {
+        // Validate Username
+       // $("#RoleId").val(@ViewBag.SelectedRole);
+
+        // Validate Email
+        const email = document.getElementById("email");
+        email.addEventListener("blur", () => {
+            let regex = /^([\w-\.]+\u0040([\w-]+\.)+[\w-]{2,4})?$/;
+            let s = email.value;
+            if (regex.test(s)) {
+                email.classList.remove("is-invalid");
+                emailError = true;
+            } else {
+                email.classList.add("is-invalid");
+                emailError = false;
+            }
+        });
+
+           // Submit button
+        // $("#submitbtn").click(function () {
+        //     validateEmail();
+        //     if (
+        //         emailError == true
+        //     ) {
+        //         return true;
+        //     } else {
+        //         return false;
+        //     }
+        // });
+
+    });
+
+</script>
+
+
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">User Management</h1>
+    </div>
+
+    <!-- Create User -->
+    <div class="card shadow mb-4 create-user">
+        <div class="card-header py-3">
+            <h6 style="color:#00376c !important" class="m-0 font-weight-bold text-primary">Edit</h6>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label">Name<span>*</label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+            @*     <div class="form-group">
+                    <label asp-for="Email" class="control-label">Email<span>*</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div> *@
+
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Email<span>*</span></label>
+                    @*  <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" id="EmailValidation" class="text-danger"></span> *@
+                    <input type="email" asp-for="Email" readonly="true" id="email" required class="form-control">
+                    <small id="emailvalid" class="form-text text-muted invalid-feedback">
+                        Please enter your valid email id
+                    </small>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="selectedRoleId">Role<span>*</span></label>
+                    @Html.DropDownListFor(model => model.RoleId, ViewBag.RoleList as SelectList, new { @class = "form-control" })
+                </div>
+              @*   <div style="color: green;" class="form-group">
+                    @ViewBag.SuccessMessage
+                </div>
+                <div style="color: red;" class="form-group">
+                    @ViewBag.ErrorMessage
+                </div> *@
+                @if (ViewBag.SuccessMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.SuccessMessage");
+                        };
+                    </script>
+                }
+
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.ErrorMessage");
+                        };
+                    </script>
+                }
+
+              @*   <div class="form-group">
+                    <input type="submit" value="Update" class="btn btn-primary" />
+                </div> *@
+
+                <div class="form-group">
+                    <input type="submit" id="submitbtn" value="Update" class="form-control save">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@* <div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+<a asp-action="Index">
+    <input type="button" class="form-control ok-btn" value="Back to List" />
+</a>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

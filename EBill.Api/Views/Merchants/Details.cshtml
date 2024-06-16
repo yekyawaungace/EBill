@@ -1,0 +1,277 @@
+﻿@model TravelInsurance.Infrastructure.Entities.Merchant
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GGI Insurance - Merchant</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../css/sb-admin-2.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <!-- Custom styles for this page -->
+    <link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+     
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+               
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Merchant Management</h1>
+                    </div>
+
+                    <!-- Page Body -->
+                    <div class="card shadow mb-4 create-user">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">View Merchant User</h6>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-2 col-lg-1">
+                                        <label class="label-title">Name </label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-10 col-lg-11">
+                                        @Model.Name
+                                   </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-2 col-lg-1">
+                                        <label class="label-title">Phone </label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-10 col-lg-11">
+                                        @Model.PhoneNo
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-2 col-lg-1">
+                                        <label class="label-title">Address </label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-10 col-lg-11">
+                                        @Model.Address
+                                       @*  <label> Thingangyun state, Yangon Township</label> *@
+                                    </div>
+                                </div>
+                                <label class="label-title qr-label">QR Code</label>
+                                <div class="qr-container">
+                                    <div id="qrCodeLarge" class="qr-con"></div>
+                                    <div class="">
+                                        <label class="label-title">QR Size</label>
+                                        <input type="button" class="form-control qr-size-btn"
+                                               data-target="#qrModalL"
+                                               data-toggle="modal"
+                                               value="1500x1500"
+                                               data-whatever="large">
+                                        <input type="button"
+                                               class="form-control qr-size-btn"
+                                               data-target="#qrModalM"
+                                               data-toggle="modal"
+                                               value="800x800"
+                                               data-whatever="medium">
+                                        <input type="button"
+                                               class="form-control qr-size-btn"
+                                               data-target="#qrModalS"
+                                               data-toggle="modal"
+                                               value="300x300"
+                                               data-whatever="small">
+                                        <!-- <button class="ok-btn" data-target="#qrModal" data-toggle="modal">800x800</button> -->
+                                        <!-- <button class="ok-btn" data-target="#qrModal" data-toggle="modal">300x300</button> -->
+                                    </div>
+                                </div>
+                                <div class="create-qr-con">
+                                    <a asp-action="Index">
+                                        <input type="button" class="form-control ok-btn" value="Back to List" />
+                                    </a>
+                                    <input type="button" class="form-control create-qr" value="Create New QR" />
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!-- End Of Page Body -->
+                </div>
+                <!-- End of Main Content -->
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>Copyright &copy; Your Website 2021</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+
+            </div>
+            <!-- End of Content Wrapper -->
+
+        </div>
+        <!-- End of Page Wrapper -->
+
+        <div class="modal" id="qrModalL" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title font-weight-bold" id="exampleModalLabel">QR Size - 1500x1500</h4>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="qrCodeLargeM"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="qrModalM" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title font-weight-bold" id="exampleModalLabel">QR Size - 800x800</h4>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="qrCodeMed"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="qrModalS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title font-weight-bold" id="exampleModalLabel">QR Size - 300x300</h4>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <div id="qrCodeSmall"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Comfirm JS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script>
+            let createQr = document.querySelector('.create-qr')
+            let qrCodeLarge = document.getElementById('qrCodeLarge')
+            let qrCodeLargeM = document.getElementById('qrCodeLargeM')
+            let qrCodeMed = document.getElementById('qrCodeMed')
+            let qrCodeSmall = document.getElementById('qrCodeSmall')
+
+            if (qrCodeLarge) {
+                new QRCode(qrCodeLarge, {
+                    // text: 'https://www.innovix-solutions.com/#gsc.tab=0',
+                    text: '@ViewBag.QRLink',
+                    width: 200,
+                    height: 200,
+                    colorDark: "#000",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+            }
+            if (qrCodeLargeM) {
+                new QRCode(qrCodeLargeM, {
+                    //text: 'https://www.innovix-solutions.com/#gsc.tab=0',
+                    text: '@ViewBag.QRLink',
+                    width: 1500,
+                    height: 1500,
+                    colorDark: "#000",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+            }
+            if (qrCodeMed) {
+                new QRCode(qrCodeMed, {
+                    //text: 'https://www.innovix-solutions.com/#gsc.tab=0',
+                    text: '@ViewBag.QRLink',
+                    width: 800,
+                    height: 800,
+                    colorDark: "#000",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+            }
+            if (qrCodeSmall) {
+                new QRCode(qrCodeSmall, {
+                    //text: 'https://www.innovix-solutions.com/#gsc.tab=0',
+                    text: '@ViewBag.QRLink',
+                    width: 300,
+                    height: 300,
+                    colorDark: "#000",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+            }
+
+
+            // Alert - create new qr
+
+            createQr?.addEventListener('click', _ => {
+                $.alert({
+                    title: 'Alert!',
+                    content: 'Are you sure!. Do you want to create new QR?',
+                    buttons: {
+                        Yes: {
+                            btnClass: 'btn-blue',
+                            action: function () {
+                            },
+                        },
+                        No: function () {
+
+                        }
+                    }
+                });
+            })
+        </script>
+        <script src="../js/sb-admin-2.js"></script>
+
+
+    </div>
+    </body>
+
+</html>

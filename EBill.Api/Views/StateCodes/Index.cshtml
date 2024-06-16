@@ -1,0 +1,120 @@
+﻿@model IEnumerable<TravelInsurance.Infrastructure.Entities.StateCode>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>State Codes</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            
+            $("#lNRC").addClass("active");
+            $("#collapseTwo").addClass("show");
+            
+            $("#lStateCodes").addClass("active");
+        });
+    </script>
+
+    <style>
+        .dataTables_scrollBody {
+            overflow-y: hidden !important;
+        }
+
+        .dataTables_empty {
+            color: red; /* Change this to the desired color */
+        }
+
+        td + .dataTables_empt ~ * {
+            border-color: red; /* Change this to the desired border color */
+            border-style: solid; /* Set the border style if it's not already defined */
+            border-width: 1px; /*hange this to the desired color */
+        }
+
+        td.dataTables_empty ~ td {
+            border-color: red; /* Change this to the desired border color */
+            border-style: solid; /* Set the border style if it's not already defined */
+            border-width: 1px; /* Set the border width if it's not already defined */
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">NRC State Code</h1>
+    </div>
+
+    <!-- Page Body -->
+    <div class="card shadow mb-4 table-con">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Create NRC State Code</h6>
+        </div>
+        <div class="card-body">
+            <form class="nrc-con" action="/StateCodes/Index" method="post">
+                <label for="nrc-en-input">NRC State Code No.(en)<span>*</span></label>
+                <input id="nrc-en-input" name="nrcEn" type="text" class="form-control nrc-input" placeholder="eg. 1" required>
+
+                <label for="nrc-mm-input">NRC State Code No.(mm)<span>*</span></label>
+                <input id="nrc-mm-input" name="nrcMm" type="text" class="form-control nrc-input" placeholder="eg. ၁" required>
+
+               
+
+                <input type="submit" class="form-control nrc-btn" value="Create" id="submit-btn">
+                <span></span>
+                <span></span>
+                <br />
+            @*     <div style="color: green;" class="form-group">
+                    @ViewBag.SuccessMessage
+                </div>
+                <div style="color: red;" class="form-group">
+                    @ViewBag.ErrorMessage
+                </div> *@
+                @if (ViewBag.SuccessMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.SuccessMessage");
+                        };
+                    </script>
+                }
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.ErrorMessage");
+                        };
+                    </script>
+                }
+             
+            </form>
+
+            <div class="table-responsive nrc-table">
+                <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <table class="table table-bordered" id="stateCodesTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th style="display: none;">ID</th>
+                                <th>State Code (EN)</th>
+                                <th>State Code (MM)</th>
+                                <th>Action</th>
+
+                            </tr>
+                        </thead>
+                      
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Of Page Body -->
+
+</body>
+</html>
+
+@section Scripts
+    {
+    <script src="~/js/bootbox.js"></script>
+    <script src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/js/StateCodesTable.js"></script>
+}

@@ -1,0 +1,151 @@
+﻿@model TravelInsurance.Infrastructure.Dto.Settings.SettingsRequestViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $("#lSettings").addClass("active");
+    });
+</script>
+
+
+<script src="~/js/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
+
+<style>
+    body {
+        background-color: grey;
+    }
+</style>
+
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Setting</h1>
+    </div>
+
+    <!-- Page Body -->
+    <div class="card shadow mb-4 table-con">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Setting</h6>
+        </div>
+        <div class="card-body">
+            <form class="banner-con" asp-action="Create">
+                <label class="label-title">Banner</label>
+               
+                
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <img class="card-img-top" src="~/Uploads/@Model.Banner" asp-append-version="true" alt="@Model.Banner" />
+                        <div class="card-body">
+                            <h5 class="card-title"> Desktop Banner</h5>
+                            <a asp-controller="Settings" asp-action="Banner" asp-route-id="@Model.Id" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                @*     <div class="col-12 col-lg-3">
+                        <img class="card-img-top" src="~/Uploads/@Model.TabletBanner" asp-append-version="true" alt="@Model.TabletBanner" />
+                        <div class="card-body">
+                            <h5 class="card-title">TabletBanner</h5>
+                            <a asp-controller="Settings" asp-action="TabletBanner" asp-route-id="@Model.Id" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <img class="card-img-top" src="~/Uploads/@Model.MobileBanner" asp-append-version="true" alt="@Model.MobileBanner" />
+                        <div class="card-body">
+                            <h5 class="card-title">MobileBanner</h5>
+                            <a asp-controller="Settings" asp-action="MobileBanner" asp-route-id="@Model.Id" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <img class="card-img-top" src="~/Uploads/@Model.PopupBanner" asp-append-version="true" alt="@Model.PopupBanner" />
+                        <div class="card-body">
+                            <h5 class="card-title">PopupBanner</h5>
+                            <a asp-controller="Settings" asp-action="PopupBanner" asp-route-id="@Model.Id" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div> *@
+                </div>
+
+              
+                
+                
+                
+                <div class="form-group">
+                    @Html.HiddenFor(m => m.Id)
+                </div>
+
+                <div class="form-outline mb-4">
+                    <label class="form-label" asp-for="Body">Terms and Conditions Myanmar</label>
+                    <div>
+                        <textarea asp-for="Body" class="form-control"></textarea>
+                        <span asp-validation-for="Body" class="text-danger"></span>
+                    </div>
+
+                </div>
+
+                <div class="form-outline mb-4">
+                    <label class="form-label" asp-for="EnglishBody">Terms and Conditions English</label>
+                    <div>
+                        <textarea asp-for="EnglishBody" class="form-control"></textarea>
+                        <span asp-validation-for="EnglishBody" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <input type="submit" id="submitbtn" value="Submit" class="btn btn-success">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Of Page Body -->
+
+</div>
+
+
+
+
+
+
+
+
+@section Scripts{
+    <script>
+        tinymce.init({
+            selector: 'textarea#Body',
+            plugins: [
+                'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',
+                'searchreplace', 'wordcount', 'visualblocks', 'visualchars', 'code', 'fullscreen', 'insertdatetime',
+                'media', 'table', 'emoticons', 'template', 'help'
+            ],
+            toolbar: 'undo redo | styles | bold italic | alignleft aligncenter alignright alignjustify | ' +
+                'bullist numlist outdent indent | link image | print preview media fullscreen | ' +
+                'forecolor backcolor emoticons | help',
+            menu: {
+                favs: { title: 'My Favorites', items: 'code visualaid | searchreplace | emoticons' }
+            },
+            menubar: 'favs file edit view insert format tools table help',
+            content_css: 'css/content.css'
+        });
+
+        tinymce.init({
+            selector: 'textarea#EnglishBody',
+            plugins: [
+                'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',
+                'searchreplace', 'wordcount', 'visualblocks', 'visualchars', 'code', 'fullscreen', 'insertdatetime',
+                'media', 'table', 'emoticons', 'template', 'help'
+            ],
+            toolbar: 'undo redo | styles | bold italic | alignleft aligncenter alignright alignjustify | ' +
+                'bullist numlist outdent indent | link image | print preview media fullscreen | ' +
+                'forecolor backcolor emoticons | help',
+            menu: {
+                favs: { title: 'My Favorites', items: 'code visualaid | searchreplace | emoticons' }
+            },
+            menubar: 'favs file edit view insert format tools table help',
+            content_css: 'css/content.css'
+        });
+    </script>
+    }

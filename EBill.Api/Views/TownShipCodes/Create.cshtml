@@ -1,0 +1,107 @@
+﻿@model TravelInsurance.Infrastructure.Dto.TownShipCode.TownShipCodeRequestViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">NRC Township Code</h1>
+    </div>
+
+    <!-- Create User -->
+    <div class="card shadow mb-4 create-user">
+        <div class="card-header py-3">
+            <h6 style="color:#00376c !important" class="m-0 font-weight-bold text-primary">Create NRC Township Code</h6>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create">
+              
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="CodeEN" class="control-label">Township Code (en)<span>*</span><span>*</span></label>
+                    <input asp-for="CodeEN" class="form-control" />
+                    <span asp-validation-for="CodeEN" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CodeMM" class="control-label">Township Code (mm)<span>*</span></label>
+                    <input asp-for="CodeMM" class="form-control" />
+                    <span asp-validation-for="CodeMM" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="selectedProductId">Select State Code...</label>
+                    @Html.DropDownListFor(model => model.StateCodeId, ViewBag.StateCodeList as SelectList, new { @class = "form-control" })
+                </div>
+               
+             @*    <div style="color: green;" class="form-group">
+                    @ViewBag.SuccessMessage
+                </div>
+                <div style="color: red;" class="form-group">
+                    @ViewBag.ErrorMessage
+                </div> *@
+                @if (ViewBag.SuccessMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.SuccessMessage");
+                        };
+                    </script>
+                }
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <script type="text/javascript">
+                        window.onload = function () {
+                            alert("@ViewBag.ErrorMessage");
+                        };
+                    </script>
+                }
+
+                <div class="form-group">
+                    <input type="submit" id="submitbtn" value="Save" class="form-control save">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<div>
+    <a asp-action="Index">
+        <input type="button" class="form-control ok-btn" value="Back to List" />
+    </a>
+
+</div>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

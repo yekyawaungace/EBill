@@ -1,0 +1,201 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TravelInsuranceWebSite
+build_property.RootNamespace = TravelInsuranceWebSite
+build_property.ProjectDir = C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Api\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Api
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Applications/ApplicationViewDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25zXEFwcGxpY2F0aW9uVmlld0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Applications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Country/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Country/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Country/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Merchants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Merchants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Merchants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Merchants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVyY2hhbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/NRCTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTlJDVHlwZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/NRCTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTlJDVHlwZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/NRCTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTlJDVHlwZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/PremiumFees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlbWl1bUZlZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/PremiumFees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlbWl1bUZlZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/PremiumFees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlbWl1bUZlZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Settings/Banner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcQmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Settings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Settings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Settings/MobileBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcTW9iaWxlQmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Settings/PopupBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcUG9wdXBCYW5uZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Settings/TabletBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcVGFibGV0QmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/StateCodes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVDb2Rlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/StateCodes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVDb2Rlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/StateCodes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVDb2Rlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/StateCodes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVDb2Rlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/StateCodes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVDb2Rlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/TownShipCodes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93blNoaXBDb2Rlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/TownShipCodes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93blNoaXBDb2Rlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/TownShipCodes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93blNoaXBDb2Rlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/TownShipCodes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93blNoaXBDb2Rlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/TownShipCodes/TownShipCodesForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93blNoaXBDb2Rlc1xUb3duU2hpcENvZGVzRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/TransactionLogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25Mb2dzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Travellers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsbGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Travellers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsbGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Users/changePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcY2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Yoma/yka/Outsource/prodggiupdatelatest/prod_ggi/TravelInsurance.Api/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9aaoee3dt9

@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>NRCTypes</title>
+    <link href="~/lib/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+
+            $("#lNRC").addClass("active");
+            $("#collapseTwo").addClass("show");
+            $("#lNRCTypes").addClass("active");
+        });
+    </script>
+    <style>
+        .nrc-table {
+            width: 100% !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Heading -->
+
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">NRCTypes</h1>
+    </div>
+
+    <!-- Page Body -->
+    <div class="card shadow mb-8 table-con">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Create NRC Type</h6>
+        </div>
+
+        <div class="card-body">
+            @if (ViewBag.SuccessMessage != null)
+            {
+                <script type="text/javascript">
+                    window.onload = function () {
+                        alert("@ViewBag.SuccessMessage");
+                    };
+                </script>
+            }
+
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <script type="text/javascript">
+                    window.onload = function () {
+                        alert("@ViewBag.ErrorMessage");
+                    };
+                </script>
+            }
+            <div class="card-body">
+                <form class="nrc-con" action="/NRCTypes/Index" method="post">
+                    <label>NRC Type (en)<span>*</span></label>
+                    <input type="text" id="TypeEN" name="TypeEN" class="form-control nrc-input" placeholder="eg. N" required />
+
+                    <label>NRC Type (mm)<span>*</span></label>
+                    <input type="text" id="TypeMM" name="TypeMM" class="form-control nrc-input" placeholder="eg. နိုင်" required />
+
+
+                    
+                    <input type="submit" class="form-control nrc-btn" value="Create" id="submit-btn">
+                    <span></span>
+                    <span></span>
+                    <br />
+                  
+                    @if (ViewBag.SuccessMessage != null)
+                    {
+                        <script type="text/javascript">
+                            window.onload = function () {
+                                alert("@ViewBag.SuccessMessage");
+                            };
+                        </script>
+                    }
+                    @if (ViewBag.ErrorMessage != null)
+                    {
+                        <script type="text/javascript">
+                            window.onload = function () {
+                                alert("@ViewBag.ErrorMessage");
+                            };
+                        </script>
+                    }
+
+                </form>
+            <div class="table-responsive nrc-table">
+                <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <table id="nRCTypesTable" class="table table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Type (en)</th>
+                                <th> Type (mm)</th>
+                                <th>Action</th>
+
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Of Page Body -->
+</body>
+</html>
+
+@section Scripts
+    {
+    <script src="~/js/bootbox.js"></script>
+    <script src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/js/NRCTypesTable.js"></script>
+}
+

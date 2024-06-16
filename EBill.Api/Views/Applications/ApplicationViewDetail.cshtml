@@ -1,0 +1,365 @@
+﻿@model TravelInsurance.Infrastructure.Dto.Applications.ApplicationDetailView
+<div id="content">
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Application</h1>
+        </div>
+
+        <!-- DataTables -->
+        <div class="card shadow mb-4 table-con">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary d-flex align-items-center">
+                    Application Details View
+                    @* <div class="@(Model.Application.PaymentStatus == 1 ? "paid" : "draft")"> *@
+
+                    <div id="divPaymentStatus" class="paid">
+                        @(Model.Application.PaymentStatus == 1 ? "Paid" : "Draft")
+                    </div>
+                </h6>
+            </div>
+            <div class="card-body app-view">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <form class="app-view-form">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Order Id </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label> @Model.Application.OrderNo</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Merchant Name </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label> @Model.Application.MerchantName</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">No. of People </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label> @Model.Application.NoofPeople</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Contact Phone </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label>@Model.Application.ContactPhone</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Address </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label> @Model.Application.Address</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Type </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label>Local</label>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Recieved Date </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label>@Model.Application.CreatedDate.ToString("dd-MM-yyyy")</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Start Date. </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label>@Model.Application.StartDate.ToString("dd-MM-yyyy")</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">End Date </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label>@Model.Application.EndDate.ToString("dd-MM-yyyy")</label>
+                                </div>
+                            </div>
+                            @{
+                                TimeSpan duration = Model.Application.EndDate - Model.Application.StartDate;
+                                int totalDays = duration.Days;
+                            }
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Total Days </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label>@totalDays</label>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Premium Fee </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label>@Model.Application.PremiumFee  Ks</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Transition Id </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <a href="#">
+                                        @Model.Application.TransitionID
+                                        <i class="fas fa-external-link-alt fa-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <label class="label-title mt-4">Second Contact </label>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Name </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label>@Model.Application.SecondContactPerson</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Phone </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label> @Model.Application.SecondContactPhone</label>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Status </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label id="labPaymentStatus" class="done">@(Model.Application.PaymentStatus == 0 ? "Draft" : "Done") </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Endosement </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label id="labEndosement" class="done"> @(Model.Application.Endosement == 0 ? "Draft" : "Done") </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Certificate ID </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label id="labCertificateID"> @Model.Application.CertificateID</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-3">
+                                    <label class="label-title">Remark </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-9">
+                                    <label id="labRemark"> @Model.Application.Remark</label>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <label class="label-title mb-3">Traveler</label>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-1">
+                                    <label class="label-title">#</label>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <label class="label-title">Name</label>
+                                </div>
+                                <div class="col-sm-12 col-md-5">
+                                    <label class="label-title">NRC/Passport</label>
+                                </div>
+                            </div>
+
+                            @{
+                                int travelerCount = 1;
+                            }
+
+                            @foreach (var traveler in Model.Traveller)
+                            {
+                                <div class="row travelar-br">
+                                    <div class="col-sm-12 col-md-1">
+                                        <label>@travelerCount</label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <label>@traveler.Name</label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-5">
+                                        <label>@traveler.NRCOrPassportData</label>
+                                    </div>
+                                </div>
+
+                                travelerCount++;
+                            }
+
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="audit-log">
+                            <form class="update-form" id="auditcontainer" data-application-id="@ViewBag.ApplicationId">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4 col-lg-3">
+                                        <label class="label-title">Status</label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-8 col-lg-9">
+                                        <div class="toggle-pill-dark">
+                                            @* <input type="checkbox" id="statusCheckbox" name="status" /> *@
+                                            <input type="checkbox" id="statusCheckbox" name="status" @(Model.Application.PaymentStatus == 0 ? "" : "checked") />
+
+                                            <label for="statusCheckbox"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4 col-lg-3">
+                                        <label class="label-title">Endorsement</label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-8 col-lg-9">
+                                        <div class="toggle-pill-endo">
+                                            <input type="checkbox" id="endorsementCheckbox" name="endorsement" @(Model.Application.Endosement == 0 ? "" : "checked") />
+                                            <label for="endorsementCheckbox"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4 col-lg-3">
+                                        <label class="label-title">Certificate ID</label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-8 col-lg-9">
+                                        <input type="text" id="certificateId" class="form-control" required />
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-12 col-md-4 col-lg-3">
+                                        <label class="label-title">Remark</label>
+                                    </div>
+                                    <div class="col-sm-12 col-md-8 col-lg-9">
+                                        <textarea id="remark" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <input type="button" class="form-control ok-btn" value="Update" id="updateAuditButton" />
+                            </form>
+                            <label class="label-title mt-4">Audit Logs</label>
+                            <div class="table-responsive">
+                                <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Change State</th>
+                                                <th>Date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var auditTrail in Model.AuditTrail)
+                                            {
+                                                <tr>
+                                                    <td>@auditTrail.CreatedStaffNo</td>
+                                                    <td class="@((auditTrail.Status == "True") ? "done" : "draft")">
+                                                        @(auditTrail.Status == "True" ? "Done" : "Draft")
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>@auditTrail.TDateTime.ToString("dd/M/yyyy")</p>
+                                                        <span>@auditTrail.TDateTime.ToString("h:mm tt")</span>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <a href="application.html">
+                   @*  <a asp-action="Index" class="form-control ok-btn">Back to List</a> *@
+                    <a asp-action="Index">
+    <input type="button" class="form-control ok-btn" value="Back to List" />
+</a>
+
+                </a>
+            </div>
+        </div>
+        <!-- End Tables-->
+
+    </div>
+    <!-- End of Main Content -->
+
+
+</div>
+
+
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<script src="../js/sb-admin-2.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#updateAuditButton").click(function () {
+            var applicationid = $("#auditcontainer").data("application-id");
+            var status = $("#statusCheckbox").is(":checked");
+            var endorsement = $("#endorsementCheckbox").is(":checked");
+            var certificateId = $("#certificateId").val();
+            var remark = $("#remark").val();
+
+
+            var data = {
+                Status: status,
+                Endorsement: endorsement,
+                CertificateId: certificateId,
+                Remark: remark,
+                ApplicationId:applicationid
+            };
+
+            $.ajax({
+                url: '@Url.Action("AuditCreate", "Applications")',
+                type: 'POST',
+                data: data,
+                success: function (response) {
+                   // location.reload();
+                    //alert(response);
+                    $("#labEndosement").text(response.endosement == 0 ? "Draft" : "Done"); // Clear the "certificateId" textbox
+                    $("#labPaymentStatus").text(response.paymentStatus == 0 ? "Draft" : "Done"); 
+                    $("#labCertificateID").text(response.certificateID); // Clear the "certificateId" textbox
+                    $("#labRemark").text(response.remark); // Clear the "remark" textbox
+                    $("#certificateId").val('');
+                    $("#remark").val('');
+                
+                
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                }
+            });
+        });
+    });
+
+</script>
