@@ -1,0 +1,104 @@
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.deps.json
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.runtimeconfig.json
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.AssemblyReference.cache
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfoInputs.cache
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfo.cs
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CoreCompileInputs.cache
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CopyComplete
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\refint\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.genruntimeconfig.cache
+C:\Yoma\yka\Outsource\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\ref\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.deps.json
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.runtimeconfig.json
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.AssemblyReference.cache
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfoInputs.cache
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfo.cs
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CoreCompileInputs.cache
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CopyComplete
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\refint\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.genruntimeconfig.cache
+C:\Yoma\yka\Outsource\GGI\Travel Insurance\Travel Insurance\TravelInsurance.Repository.Ef\obj\Debug\net6.0\ref\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.deps.json
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.runtimeconfig.json
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.AssemblyReference.cache
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfoInputs.cache
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfo.cs
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CoreCompileInputs.cache
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CopyComplete
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\refint\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.genruntimeconfig.cache
+C:\Yoma\yka\Outsource\GGI\ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\ref\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.deps.json
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.runtimeconfig.json
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.AssemblyReference.cache
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfoInputs.cache
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfo.cs
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CoreCompileInputs.cache
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CopyComplete
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\refint\TravelInsurance.Repository.Ef.dll
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.genruntimeconfig.cache
+C:\Yoma\yka\Outsource\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\ref\TravelInsurance.Repository.Ef.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.deps.json
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.runtimeconfig.json
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.AssemblyReference.cache
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfoInputs.cache
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfo.cs
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CoreCompileInputs.cache
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.sourcelink.json
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelIn.AF14935A.Up2Date
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\refint\TravelInsurance.Repository.Ef.dll
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.genruntimeconfig.cache
+C:\yoma\oddandend\Dotnet\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\ref\TravelInsurance.Repository.Ef.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.deps.json
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.runtimeconfig.json
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\bin\Debug\net6.0\TravelInsurance.Infrastructure.pdb
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.AssemblyReference.cache
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfoInputs.cache
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.AssemblyInfo.cs
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.csproj.CoreCompileInputs.cache
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.sourcelink.json
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelIn.AF14935A.Up2Date
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\refint\TravelInsurance.Repository.Ef.dll
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.pdb
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\TravelInsurance.Repository.Ef.genruntimeconfig.cache
+C:\TMN\prodggiupdatelatest\prod_ggi\TravelInsurance.Repository.Ef\obj\Debug\net6.0\ref\TravelInsurance.Repository.Ef.dll
